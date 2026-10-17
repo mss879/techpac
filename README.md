@@ -26,6 +26,14 @@ npm start
 
 `npm run typecheck` checks TypeScript. The build uses Next.js's supported Webpack mode because the current execution environment blocks the port binding required by Turbopack's production CSS compiler. The application remains a standard Next.js 16 project. The development script uses the Next.js default bundler.
 
+## Deploy to Netlify
+
+Connect the repository and deploy its `main` branch. The root `netlify.toml` configures the repository root as the base, `npm run build` as the build command, and `out` as the publish directory. Next.js generates `out/index.html` and the supporting assets because `next.config.ts` enables `output: "export"`.
+
+The configuration selects Node.js 22 and skips Netlify's server-side Next.js adapter for this static export. No separate `next export` command or running Node server is needed. Netlify reads these settings on the next Git-triggered build; file-based settings override the corresponding dashboard values.
+
+For a manual drag-and-drop deployment, run `npm ci` and `npm run build`, then upload the generated `out` folder. Uploading the source repository, `public`, or `.next` as a static site will not publish this homepage correctly. Unknown URLs use the exported `404.html`; homepage section links use anchors and do not require a catch-all rewrite.
+
 ## Experience
 
 - Blue/green brand palette, oversized typography, custom hero art and an editorial product grid
