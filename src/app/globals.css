@@ -610,3 +610,6 @@ img[src$="/dimo-logo.webp"]{background:#173c30;padding:9px;border-radius:3px;mix
   .logo-group[aria-hidden=true],.marquee-toggle{display:none}
   .logo-item{width:110px}
 }
+
+/* Preserve the supplied official logo proportions at every breakpoint. */
+.brand,.brand img,.footer-brand img{height:auto}

@@ -44,8 +44,8 @@ The preview is marked `noindex` and has preview-domain metadata. Update metadata
 
 ## Assets
 
-- `public/brand/techpac.svg`: clean vector reconstruction based on the original company logo
-- `public/brand/techpac@6x.png`: high-resolution transparent export
+- `public/brand/techpac-official.png`: exact company logo supplied by the user, used in the header and footer with its original proportions
+- `src/app/icon.svg`: favicon wrapper embedding the same supplied logo without redrawing it
 - `public/brand/originals/`: extracted source marks, logos and selected reference assets, using their highest advertised image widths
 - `public/brand/asset-provenance.json`: source URLs and download records
 - `public/brand/optimized/`: display-sized WebP versions of the original marks; DIMO's white mark receives a dark backing, preserving its colours
