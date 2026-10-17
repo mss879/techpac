@@ -1,7 +1,7 @@
 {
   "logos": 18,
-  "originalLogoBytes": 896487,
-  "optimizedLogoBytes": 178484,
+  "originalLogoBytes": 916192,
+  "optimizedLogoBytes": 180454,
   "logoByteReductionPercent": 80,
   "files": [
     {
@@ -93,12 +93,12 @@
       "height": 40
     },
     {
-      "source": "public/brand/originals/acorn.png",
-      "output": "public/brand/optimized/acorn.webp",
-      "before": 58627,
-      "after": 20854,
-      "width": 180,
-      "height": 180
+      "source": "public/brand/originals/acorn-travels-official.png",
+      "output": "public/brand/optimized/acorn-travels-official.webp",
+      "before": 78332,
+      "after": 22824,
+      "width": 420,
+      "height": 141
     },
     {
       "source": "public/brand/originals/um.png",

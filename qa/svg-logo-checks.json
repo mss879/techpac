@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-17",
+  "productionBuild": "passed",
+  "typecheck": "passed",
+  "viewports": [
+    {
+      "acornHeight": 68,
+      "acornWidth": 202,
+      "brokenImages": 0,
+      "documentWidth": 320,
+      "orbitPosition": "relative",
+      "orbitWidth": 180,
+      "width": 320
+    },
+    {
+      "acornHeight": 74,
+      "acornWidth": 220,
+      "brokenImages": 0,
+      "documentWidth": 390,
+      "orbitPosition": "relative",
+      "orbitWidth": 180,
+      "width": 390
+    },
+    {
+      "acornHeight": 74,
+      "acornWidth": 220,
+      "brokenImages": 0,
+      "documentWidth": 768,
+      "orbitPosition": "relative",
+      "orbitWidth": 210,
+      "width": 768
+    },
+    {
+      "acornHeight": 74,
+      "acornWidth": 220,
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "orbitPosition": "relative",
+      "orbitWidth": 210,
+      "width": 1440
+    }
+  ],
+  "starInitially": {
+    "active": "true",
+    "state": "running",
+    "transform": "matrix(0.271454, 0.962451, -0.962451, 0.271454, 0, 0)"
+  },
+  "starOffscreen": "paused",
+  "orbitBefore": {
+    "active": "true",
+    "satellite": "matrix(0.993211, 0.116326, -0.116326, 0.993211, 0, 0)",
+    "state": "running",
+    "transform": "matrix(0.998752, 0.0499462, -0.0499462, 0.998752, 0, 0)"
+  },
+  "orbitAfter": {
+    "satellite": "matrix(-0.384039, 0.923317, -0.923317, -0.384039, 0, 0)",
+    "transform": "matrix(-0.923639, -0.383265, 0.383265, -0.923639, 0, 0)"
+  },
+  "orbitOffscreen": {
+    "active": "false",
+    "state": "paused"
+  },
+  "journeyLine": {
+    "reveal": "visible",
+    "animation": "journey-draw"
+  },
+  "carouselAcornLogoPersists": true,
+  "consoleErrorsOrWarnings": [],
+  "sourceInspectedOnly": [
+    "prefers-reduced-motion fallback",
+    "hidden-tab pausing"
+  ],
+  "assets": {
+    "acornSource": "https://www.acorntravels.lk/nav_logo_new.png",
+    "display": "/brand/optimized/acorn-travels-official.webp"
+  }
+}

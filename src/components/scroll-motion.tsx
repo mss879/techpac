@@ -7,7 +7,7 @@ export default function ScrollMotion() {
   useEffect(() => {
     const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
     const targets = Array.from(document.querySelectorAll<HTMLElement>(
-      ".section-heading,.about-heading,.solution-card,.detail-copy,.detail-products,.infrastructure-image,.about-copy,.company-stats>div,.approach-step,.story-card,.testimonial-label,.testimonial-body,.faq-intro,.faq-item,.contact-details,.contact-form,.footer-top"
+      ".section-heading,.about-heading,.solution-card,.detail-copy,.detail-products,.infrastructure-image,.about-copy,.company-stats>div,.journey-line,.approach-step,.story-card,.testimonial-label,.testimonial-body,.faq-intro,.faq-item,.contact-details,.contact-form,.footer-top"
     ));
     let observer: IntersectionObserver | undefined;
 
@@ -43,9 +43,30 @@ export default function ScrollMotion() {
 
     prepare();
     preference.addEventListener("change",prepare);
+
+    // Decorative SVGs run only while visible, without a per-frame JS loop.
+    const decorations = Array.from(document.querySelectorAll<HTMLElement>("[data-decorative-motion]"));
+    const visible = new Set<Element>();
+    const syncDecorations = () => decorations.forEach(element => {
+      element.dataset.motionActive = String(!preference.matches && !document.hidden && visible.has(element));
+    });
+    const decorationObserver = "IntersectionObserver" in window ? new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) visible.add(entry.target);
+        else visible.delete(entry.target);
+      });
+      syncDecorations();
+    }) : undefined;
+    decorations.forEach(element => decorationObserver?.observe(element));
+    preference.addEventListener("change",syncDecorations);
+    document.addEventListener("visibilitychange",syncDecorations);
     return () => {
       observer?.disconnect();
+      decorationObserver?.disconnect();
       preference.removeEventListener("change",prepare);
+      preference.removeEventListener("change",syncDecorations);
+      document.removeEventListener("visibilitychange",syncDecorations);
+      decorations.forEach(element => { element.dataset.motionActive = "false"; });
       targets.forEach(element => {
         delete element.dataset.reveal;
         element.style.removeProperty("--reveal-delay");

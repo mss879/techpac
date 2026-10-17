@@ -45,7 +45,8 @@ For a manual drag-and-drop deployment, run `npm ci` and `npm run build`, then up
 - Readable 16–18px body copy, 13px minimum supporting labels, larger product marks, and single-column product cards on phones
 - Business contacts, maps, email and WhatsApp links
 - Continuous full-colour customer-logo loop with keyboard-operable pause/play; animation pauses offscreen, in hidden tabs, and on hover
-- Once-only section reveals with subtle stagger and a CSS scroll-linked hero effect where supported; reduced-motion preferences disable these effects
+- Once-only section reveals with subtle stagger, a drawn journey line and a CSS scroll-linked hero effect where supported
+- Native SVG orbit and hero-star motion, paused outside the viewport or in hidden tabs; reduced-motion preferences disable decorative animations
 
 The contact form validates required fields and prepares a `mailto:` draft. It does **not** send email directly or store submissions. A production email/CRM service can be connected later. Product details, case studies and policies link to the existing site because this task covers the homepage only.
 
@@ -63,7 +64,7 @@ The preview is marked `noindex` and has preview-domain metadata. Update metadata
 
 Official vendor marks are preserved. Light-colour source marks receive appropriate contrast treatment in CSS. Generated imagery is illustrative; it is not a photograph of Tech Pacific's own facilities.
 
-Run `node scripts/optimize-assets.mjs` to regenerate the display assets. The 18 prepared logo files total 178,484 bytes versus 896,487 bytes for their source files, an 80% reduction. Hero and infrastructure imagery use responsive WebP sources; secondary imagery is lazy-loaded. Motion uses CSS transforms and a shared IntersectionObserver for section reveals, without a JavaScript animation loop or added animation dependency. These are asset and implementation measurements, not a Lighthouse score or a claim about whole-page transfer savings.
+Run `node scripts/optimize-assets.mjs` to regenerate the display assets. The 18 prepared logo files total 180,454 bytes versus 916,192 bytes for their source files, an 80% reduction. Hero and infrastructure imagery use responsive WebP sources; secondary imagery is lazy-loaded. Motion uses CSS transforms and a shared IntersectionObserver for section reveals, without a JavaScript animation loop or added animation dependency. These are asset and implementation measurements, not a Lighthouse score or a claim about whole-page transfer savings.
 
 ## Verification
 
@@ -76,3 +77,5 @@ The homepage was checked in a real browser at CSS widths 320, 390, 768, approxim
 `qa/motion-checks.json` records the colour, continuous-loop, pause/resume, offscreen and responsive checks. `qa/asset-optimization.json` records generated image dimensions and byte sizes. Reduced-motion rules and hidden-tab handling were inspected in source; those environment modes were not toggled during browser QA.
 
 `qa/readability-checks.json` records the larger typography and logo checks across phone, tablet and desktop widths. Adobe and TeamViewer display assets are cropped to their visible artwork before resizing; the original brand files are preserved.
+
+The Acorn Travels story uses the official wordmark from https://www.acorntravels.lk/nav_logo_new.png instead of the older circular badge. Client-story logos preserve their shape, display at a larger size and include a visible company name. Source provenance is recorded in `public/brand/asset-provenance.json`.

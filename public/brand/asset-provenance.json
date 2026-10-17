@@ -1292,5 +1292,15 @@
     "width": 1920,
     "bytes": 72449,
     "source_page": "https://www.techpac.lk/ (public page data)"
+  },
+  {
+    "filename": "acorn-travels-official.png",
+    "url": "https://www.acorntravels.lk/nav_logo_new.png",
+    "width": 808,
+    "height": 272,
+    "source_page": "https://www.acorntravels.lk/",
+    "bytes": 78332,
+    "content_type": "image/png",
+    "usage": "Replaces the decorative circular badge in the Acorn Travels success story."
   }
 ]
