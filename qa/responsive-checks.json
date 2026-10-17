@@ -1,0 +1,60 @@
+{
+  "layouts": [
+    {
+      "documentWidth": 320,
+      "headingFont": "30.72px",
+      "overflow": false,
+      "solutionColumns": "132.5px 132.5px",
+      "width": 320
+    },
+    {
+      "documentWidth": 390,
+      "headingFont": "37.44px",
+      "overflow": false,
+      "solutionColumns": "163.498px 163.498px",
+      "width": 390
+    },
+    {
+      "documentWidth": 768,
+      "headingFont": "65.2611px",
+      "overflow": false,
+      "solutionColumns": "221.259px 221.259px 221.259px",
+      "width": 768
+    },
+    {
+      "documentWidth": 1023,
+      "headingFont": "84.9367px",
+      "overflow": false,
+      "solutionColumns": "295.773px 295.781px 295.781px",
+      "width": 1023
+    },
+    {
+      "documentWidth": 1440,
+      "headingFont": "119.52px",
+      "overflow": false,
+      "solutionColumns": "418.663px 418.672px 418.672px",
+      "width": 1440
+    },
+    {
+      "documentWidth": 1920,
+      "headingFont": "126px",
+      "overflow": false,
+      "solutionColumns": "418.663px 418.672px 418.672px",
+      "width": 1920
+    }
+  ],
+  "solutionPanels": [
+    "Your whole business.\nOn the same page.",
+    "Less disconnected.\nMore in control.",
+    "Behind every ambition,\na resilient foundation.",
+    "The right tools.\nA world of possibility.",
+    "Your next chapter.\nWithout the limits.",
+    "Confidence.\nBuilt into every layer."
+  ],
+  "mobileMenu": "Open and Escape dismissal passed",
+  "faq": "Expanded second answer; first answer collapsed",
+  "enquiryPrefill": "eZuite selection passed",
+  "testimonial": "Next control changed attribution to Shivantha Perera",
+  "stories": "Next control changed first story to Teejay Lanka",
+  "brokenImages": []
+}

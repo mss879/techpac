@@ -1,0 +1,1296 @@
+[
+  {
+    "filename": "logo-dark.png",
+    "url": "https://www.techpac.lk/static/d47f6c66408840a5d7cfbaca4a82af61/4fbc1/logo-dark.png",
+    "width": 200,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 2420,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap-su-fa.png",
+    "url": "https://www.techpac.lk/static/f1f4743fa77c2b1bb132b127430f8782/168d2/Sap_su_fa.png",
+    "width": 3840,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 89868,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "customerex.png",
+    "url": "https://www.techpac.lk/static/dbaee69897846f0145b7c20ce29736bd/168d2/customerEx.png",
+    "width": 3840,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 224544,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap-an-cloud.png",
+    "url": "https://www.techpac.lk/static/5bd441eb6c6f09814680bbdb6f275daa/a2433/sap_an_cloud.png",
+    "width": 527,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 4085,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sapariba.png",
+    "url": "https://www.techpac.lk/static/19e0bced5fad40d0cce3fcd53cf8fc5b/168d2/sapAriba.png",
+    "width": 3840,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 368903,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap4hana.png",
+    "url": "https://www.techpac.lk/static/989e2a88e96a4a23db2dbc7851f44365/587f8/Sap4hana.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 28540,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "risewithsap.png",
+    "url": "https://www.techpac.lk/static/a5f34482351bd1a8f1d3c57a11e1c892/168d2/riseWithSap.png",
+    "width": 3840,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 297126,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap-bbd.png",
+    "url": "https://www.techpac.lk/static/808daa5d340d628f420177d92445ee87/168d2/sap_bBD.png",
+    "width": 3840,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 111404,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap-bussi-one.png",
+    "url": "https://www.techpac.lk/static/872d199d2fd8255283e0a1bdf589e89c/e4606/sap_bussi_one.png",
+    "width": 3840,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 67202,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "adobe.png",
+    "url": "https://www.techpac.lk/static/5f9048baa7e811fd49bea959cba910af/0bc69/adobe.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 56710,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "team-viewer.png",
+    "url": "https://www.techpac.lk/static/cb14088fd26a3b722e45eec6b825a61e/0bc69/team_viewer.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 42502,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "siemens.png",
+    "url": "https://www.techpac.lk/static/5d42a208c6425b32f934d2de26cd44f6/0bc69/siemens.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 32015,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "tristha.png",
+    "url": "https://www.techpac.lk/static/62eba70947278e00c8e845b640ca080f/0bc69/tristha.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 57315,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "arcserve.png",
+    "url": "https://www.techpac.lk/static/f85a6475a10274579c42b36fc5c91039/0bc69/arcserve.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 62744,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "diecentral.png",
+    "url": "https://www.techpac.lk/static/68e5ede48ed74ec8420d990bb049d6ea/0bc69/Diecentral.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 44632,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "freshworks.png",
+    "url": "https://www.techpac.lk/static/4e36bf06bcbb8099f6bbd428591ac9eb/0bc69/Freshworks.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 44310,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "hcl.png",
+    "url": "https://www.techpac.lk/static/44f64aca25432cdc73aa22ce664ff1ec/0bc69/hcl.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 25494,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "kapture.png",
+    "url": "https://www.techpac.lk/static/7e7e1ce70f21cda0275a6d3782cb1533/0bc69/kapture.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 47120,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "proaxia.png",
+    "url": "https://www.techpac.lk/static/10b421eab640bbb0e07b314f2dcd3b45/0bc69/proaxia.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/",
+    "bytes": 151530,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap-header-logo.png",
+    "url": "https://www.techpac.lk/static/f828aefbe0845a1aafb5af55662b1fd8/93991/sap-header-logo.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 13317,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "rise-with-sap.png",
+    "url": "https://www.techpac.lk/static/10deae5629cb984c548d15cf2270d205/0a4e1/rise-with-sap.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 8450,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "y2015.png",
+    "url": "https://www.techpac.lk/static/713fefbce6c395afa9c102fc1e2a6981/8cb4c/y2015.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 92300,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sapacc.png",
+    "url": "https://www.techpac.lk/static/90e1dba69ab4ac3a3372dcbb996eed03/87459/sapacc.png",
+    "width": 625,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 11437,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "y2022.png",
+    "url": "https://www.techpac.lk/static/a66830d9ccd38256d13fe7874e7468d5/ec5a8/y2022.png",
+    "width": 817,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 91959,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "y2021.png",
+    "url": "https://www.techpac.lk/static/00efc288a8569e0dd667fb8ad62462ba/8cb4c/y2021.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 93908,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "ebc.png",
+    "url": "https://www.techpac.lk/static/61a16911d981c93c13d3d8598fce405f/963a9/ebc.png",
+    "width": 539,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 13558,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "cwml.png",
+    "url": "https://www.techpac.lk/static/527f0db38b5aa1c3f4394c6b7dd20cd8/87459/cwml.png",
+    "width": 625,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 35184,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "lanka-ssl.png",
+    "url": "https://www.techpac.lk/static/72fe48bbfe2cdf4b8f8fcaae23284d47/963a9/lanka_ssl.png",
+    "width": 539,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 14702,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "dimo.png",
+    "url": "https://www.techpac.lk/static/9c1b0e8a84b7708642f68a6abdf4176c/8cb4c/dimo.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 119173,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "y2020.png",
+    "url": "https://www.techpac.lk/static/1d7a03c01b4939c017dc6fe73ecb48d5/8cb4c/y2020.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 93663,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "y2018.png",
+    "url": "https://www.techpac.lk/static/03051ffa45b0a75d1b755ec3f801d7a9/8cb4c/y2018.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 93445,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "wkv.png",
+    "url": "https://www.techpac.lk/static/fd1410780b52f4b1a0cb567dcce1b822/c7240/wkv.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/success-stories/business-process-optimisation/",
+    "bytes": 58462,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "y2016.png",
+    "url": "https://www.techpac.lk/static/335c30bbc1545040700e407e2c1947dc/8cb4c/y2016.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 93746,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "rockland.png",
+    "url": "https://www.techpac.lk/static/99c990ba69a3a132fc09706f4534f46e/fa071/rockland.png",
+    "width": 540,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 32123,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "hemas.png",
+    "url": "https://www.techpac.lk/static/96073e66be5fdc40212cfef703869915/fa071/hemas.png",
+    "width": 540,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 30100,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap-successfactors.png",
+    "url": "https://www.techpac.lk/static/f0d38f0f8439c43e23a37fdf2725fc3d/31ce4/sap-successfactors.png",
+    "width": 514,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 5725,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "gtn-logo.jpg",
+    "url": "https://www.techpac.lk/static/69d3d83810aea77c4ed488b2c400070c/8b019/gtn-logo.jpg",
+    "width": 1200,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 94481,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "vertiv-authorized-business-partner.png",
+    "url": "https://www.techpac.lk/static/c24f9b22ce11d1f1d65af120f3379296/2f1b8/vertiv-authorized-business-partner.png",
+    "width": 1600,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 399890,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "fairfirst-insurance-logo.png",
+    "url": "https://www.techpac.lk/static/b440b8fe3e93959524ef0ecfefa73b64/8cb4c/fairfirst-insurance-logo.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 19494,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "alliance-finance-logo.jpg",
+    "url": "https://www.techpac.lk/static/ef1f3e9fa9a603e68f46ed488bca7260/839ae/alliance-finance-logo.jpg",
+    "width": 200,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 11425,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "rise-with-sap-business-transformation.png",
+    "url": "https://www.techpac.lk/static/f34dd372192e31d1d1dc1b24c7c78879/ba630/rise-with-sap-business-transformation.png",
+    "width": 274,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 5299,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "dimo-logo.png",
+    "url": "https://www.techpac.lk/static/8366abc5eb1f807f254d35835b60b577/ebeb0/dimo-logo.png",
+    "width": 305,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 2992,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "sap-cloud-erp.png",
+    "url": "https://www.techpac.lk/static/3ce6fcf4d9b376d0e7555a754b5b8d25/6902f/sap-cloud-erp.png",
+    "width": 1600,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 14668,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "maliban-logo.png",
+    "url": "https://www.techpac.lk/static/ad180a615dc0ca35f2abb232065674a0/c88cd/maliban-logo.png",
+    "width": 1024,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 46262,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "colombo-fort-group-services-logo.jpg",
+    "url": "https://www.techpac.lk/static/f08e9e96cf9e3218d41567eb112ff957/5528e/colombo-fort-group-services-logo.jpg",
+    "width": 222,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 16833,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "sap-grow.png",
+    "url": "https://www.techpac.lk/static/aa6886fdb5ec5705ba7c6861cd94bc13/01f79/sap-grow.png",
+    "width": 1600,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 20945,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "bppl-logo.jpg",
+    "url": "https://www.techpac.lk/static/1415bb31abad5500258e79fd00ebda70/52baf/bppl-logo.jpg",
+    "width": 175,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 15967,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "lion.png",
+    "url": "https://www.techpac.lk/static/72a3f22f92daedda29f26877888e6d4b/762c7/lion.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 43045,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "nlb.png",
+    "url": "https://www.techpac.lk/static/fedba3e00e765dc9d3bc31bd982b0836/762c7/nlb.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 36858,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "panasia.png",
+    "url": "https://www.techpac.lk/static/052d343e939006d9d615ab5da9e72688/762c7/panasia.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 34112,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "print.png",
+    "url": "https://www.techpac.lk/static/336e7e0ab92b9edc41c5fbb2e0e7abef/762c7/print.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 35682,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "tokyo.png",
+    "url": "https://www.techpac.lk/static/454de089280aabc7cb3ab2a9484bca84/8cb4c/tokyo.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 114448,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "amantabank.png",
+    "url": "https://www.techpac.lk/static/a845f5739bda645e063a8b84f89a8dc5/762c7/amantabank.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 36043,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "anthara.png",
+    "url": "https://www.techpac.lk/static/5764839332a6a89ae5bc19e259dba14e/b8fbd/anthara.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 36340,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "apiit.png",
+    "url": "https://www.techpac.lk/static/8268e9831cde489f6904bf5518d6e2ed/762c7/apiit.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 34113,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "cbl.png",
+    "url": "https://www.techpac.lk/static/1b944f3827b542e1ee8e653ba37ca987/8cb4c/cbl.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 122590,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "dbank.png",
+    "url": "https://www.techpac.lk/static/f4c712157f0c8e54a3117a4554e0a92e/b8fbd/dbank.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 35819,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "dsi.png",
+    "url": "https://www.techpac.lk/static/730cadc51e785588ab44b16b99623e87/762c7/dsi.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 35190,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "fonte.png",
+    "url": "https://www.techpac.lk/static/e318da7ff7eb23da3a89fe41a1c310ea/b8fbd/fonte.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 36247,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "hdfc.png",
+    "url": "https://www.techpac.lk/static/f9913a833c14ecbec8892ab4858b310f/762c7/hdfc.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 34559,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "hela.png",
+    "url": "https://www.techpac.lk/static/dde0c843f89c40ce3419edc1f656d934/8cb4c/hela.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 113534,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "john.png",
+    "url": "https://www.techpac.lk/static/df38fb4169c7e4945b9e877b9fcb6390/762c7/john.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 37225,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "lankah.png",
+    "url": "https://www.techpac.lk/static/21d36a4adb4c53567aa6b8f2224f3d0c/762c7/lankah.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/sap/",
+    "bytes": 35132,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "ekp.png",
+    "url": "https://www.techpac.lk/static/48c11ada160ba670e9bfcad6c153dafe/697c9/ekp.png",
+    "width": 310,
+    "source_page": "https://www.techpac.lk/about/",
+    "bytes": 5088,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "r2.png",
+    "url": "https://www.techpac.lk/static/544365d8512288dcdcc7c0fd502bdf30/6dffe/r2.png",
+    "width": 518,
+    "source_page": "https://www.techpac.lk/about/",
+    "bytes": 8072,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "altrocks.png",
+    "url": "https://www.techpac.lk/static/2365c9c16607617b853973b1fcdb4639/f6997/altrocks.png",
+    "width": 452,
+    "source_page": "https://www.techpac.lk/about/",
+    "bytes": 4465,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "neovatic.png",
+    "url": "https://www.techpac.lk/static/a0150c12bd430dde4371751cad861888/34bd4/Neovatic.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/about/",
+    "bytes": 83907,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "infra.png",
+    "url": "https://www.techpac.lk/static/174be307246cb810887ec097bf338b5d/2b666/infra.png",
+    "width": 458,
+    "source_page": "https://www.techpac.lk/about/",
+    "bytes": 5767,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "vis.png",
+    "url": "https://www.techpac.lk/static/206bb240e6d682b8314c01194bdaee26/f5b34/vis.png",
+    "width": 187,
+    "source_page": "https://www.techpac.lk/about/",
+    "bytes": 4299,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "icon-contactus.png",
+    "url": "https://www.techpac.lk/static/7d7c3e2e538f1fd5249e8a19198e8b46/339f9/Icon_contactus.png",
+    "width": 60,
+    "source_page": "https://www.techpac.lk/contact/",
+    "bytes": 595,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "icon-address.png",
+    "url": "https://www.techpac.lk/static/31e5c0f29f0e8ca7583b081e47a4e6bb/339f9/Icon_address.png",
+    "width": 60,
+    "source_page": "https://www.techpac.lk/contact/",
+    "bytes": 276,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "icon-web.png",
+    "url": "https://www.techpac.lk/static/6d63b6fa4847ce9e77fe06f6a25109d4/339f9/Icon_web.png",
+    "width": 60,
+    "source_page": "https://www.techpac.lk/contact/",
+    "bytes": 837,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "logo.png",
+    "url": "https://www.techpac.lk/static/8986399906a4fd8f32d463ba06afadff/8cb4c/logo.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 128626,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p1.png",
+    "url": "https://www.techpac.lk/static/758fee4ed5e8e585ccfaca6d56185ab8/1b60b/p1.png",
+    "width": 118,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 3296,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p2.png",
+    "url": "https://www.techpac.lk/static/3dff9bb615a68e34fcf6bf2c624559d6/fa1ab/p2.png",
+    "width": 155,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 3187,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p3.png",
+    "url": "https://www.techpac.lk/static/bfc69314bd32cca440d08685d8d5f1ba/64274/p3.png",
+    "width": 46,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 1610,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p4.png",
+    "url": "https://www.techpac.lk/static/67e63af39124cbf6c2c8d0c31909b29e/ed8b9/p4.png",
+    "width": 151,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 2875,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p5.png",
+    "url": "https://www.techpac.lk/static/434f5b94121c6af7d59fecaf67fc6049/8bd0a/p5.png",
+    "width": 159,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 3412,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p6.png",
+    "url": "https://www.techpac.lk/static/439f696232d7d326b16513339306b3f4/78913/p6.png",
+    "width": 121,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 1468,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p7.png",
+    "url": "https://www.techpac.lk/static/d582b12959555bc3da07140d7fe7704e/efc7d/p7.png",
+    "width": 189,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 3274,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p10.png",
+    "url": "https://www.techpac.lk/static/803eeb5076695e87010a6902a26b0756/af5d7/p10.png",
+    "width": 211,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 5798,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p11.png",
+    "url": "https://www.techpac.lk/static/1f832d99ad5e64b5efd27360d4aeaa25/3e815/p11.png",
+    "width": 309,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 4903,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p12.png",
+    "url": "https://www.techpac.lk/static/c25f24533fb6c3f1580bc086f6e53f4f/4c88e/p12.png",
+    "width": 110,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 2385,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p13.png",
+    "url": "https://www.techpac.lk/static/758fee4ed5e8e585ccfaca6d56185ab8/1b60b/p13.png",
+    "width": 118,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 3296,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p14.png",
+    "url": "https://www.techpac.lk/static/856449a6bbe4ea0090ed70b481d71037/24ac9/p14.png",
+    "width": 118,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 2404,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p16.png",
+    "url": "https://www.techpac.lk/static/e4051fe3f723f855133011cb95f75ca0/22d32/p16.png",
+    "width": 218,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 3202,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p17.png",
+    "url": "https://www.techpac.lk/static/5a0d155085b8a924ce89e344502c9894/9c8fc/p17.png",
+    "width": 234,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 2033,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p18.png",
+    "url": "https://www.techpac.lk/static/8dae1b4a13c88fff6a68eaaca00382af/c5220/p18.png",
+    "width": 149,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 2314,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p19.png",
+    "url": "https://www.techpac.lk/static/c110b4de4ca2e8ffdd2e104ab6890bcc/12b33/p19.png",
+    "width": 205,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 3337,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "p15.png",
+    "url": "https://www.techpac.lk/static/e5ae008a47bc3009ae071ac05c8f854f/762a4/p15.png",
+    "width": 205,
+    "source_page": "https://www.techpac.lk/products/system-integration/",
+    "bytes": 2961,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "viraj.jpg",
+    "url": "https://www.techpac.lk/static/38924d52552c5805930ce8973b8124eb/13b44/viraj.jpg",
+    "width": 120,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 13602,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "minhaj.jpg",
+    "url": "https://www.techpac.lk/static/98c12cbf8f593f8504c336b89b8cf574/13b44/minhaj.jpg",
+    "width": 120,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 13547,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "gayan.jpg",
+    "url": "https://www.techpac.lk/static/7908cc6170774b44ce4310b0977db93a/13b44/gayan.jpg",
+    "width": 120,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 13922,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "samuel.jpg",
+    "url": "https://www.techpac.lk/static/7c3aca1fc47107b9d1aa9df2fd8eb7ff/13b44/samuel.jpg",
+    "width": 120,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 16481,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "vidunath.jpg",
+    "url": "https://www.techpac.lk/static/da81ec74316480cec53a5bb9a0e8084e/13b44/vidunath.jpg",
+    "width": 120,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 16059,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "cabinet.png",
+    "url": "https://www.techpac.lk/static/c158d14f31a2f6147e7819c88175a61f/d83ff/cabinet.png",
+    "width": 88,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 5384,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "smart-rows.png",
+    "url": "https://www.techpac.lk/static/289af8d8a22046801f28d4248fc1686a/62c38/Smart_Rows.png",
+    "width": 196,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 5754,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "slt.png",
+    "url": "https://www.techpac.lk/static/0df34301f80e90af426579bb43df1546/8cb4c/slt.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 108845,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "ucsc.png",
+    "url": "https://www.techpac.lk/static/537b6a45457e8ee099490a5250dd0a06/8cb4c/ucsc.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 113913,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "aia.png",
+    "url": "https://www.techpac.lk/static/80c4767665aaafa8baef715dc7c0a942/5f042/aia.png",
+    "width": 1354,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 105214,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "adani.png",
+    "url": "https://www.techpac.lk/static/d2d862b4c2a77a5261623b1a0776f6fb/5f042/adani.png",
+    "width": 1354,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 105290,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "alliance.png",
+    "url": "https://www.techpac.lk/static/3671d7c913d27544a9e768189b04180a/8cb4c/alliance.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 111942,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "united.png",
+    "url": "https://www.techpac.lk/static/9984ad1d071b26b012ae227915574101/8cb4c/united.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 113575,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "brandix.png",
+    "url": "https://www.techpac.lk/static/b83927499f7e6b956cf439cdf8b8107f/8cb4c/brandix.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 109286,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "ca.png",
+    "url": "https://www.techpac.lk/static/059094185006d54dcc2f4244b4cc3527/8cb4c/ca.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 118080,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "cing.png",
+    "url": "https://www.techpac.lk/static/9e90792d21de5018c90ebab651f3c4e8/8cb4c/cing.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 108154,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "cse.png",
+    "url": "https://www.techpac.lk/static/8c907d6471dabc186f39828dc55c08f0/8cb4c/cse.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 119091,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "fair.png",
+    "url": "https://www.techpac.lk/static/2201ab30f562758af9cfb544ee2af868/8cb4c/fair.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 109659,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "lakjaya.png",
+    "url": "https://www.techpac.lk/static/324633309e411b2082de4abe4837b8af/8cb4c/lakjaya.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 125551,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "maga.png",
+    "url": "https://www.techpac.lk/static/ea59daf8c6255fb2fa91842bb3ec62a2/8cb4c/maga.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 111323,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "mcb.png",
+    "url": "https://www.techpac.lk/static/4ad7680247cb328fd5528710365d7a23/8cb4c/mcb.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 113472,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "orange.png",
+    "url": "https://www.techpac.lk/static/7f2a2e47ebf747faf8c4942f21ddcea1/8cb4c/orange.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 115537,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "siyapatha.png",
+    "url": "https://www.techpac.lk/static/dc9abd002f992a2144c14881b9d98e0f/8cb4c/siyapatha.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/digital-infrastructure/",
+    "bytes": 117290,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "salesforce.png",
+    "url": "https://www.techpac.lk/static/84ceb541f122473cabfd4b3ebabe5a3b/2cfe6/Salesforce.png",
+    "width": 165,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 1794,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "qualtrics.png",
+    "url": "https://www.techpac.lk/static/682ec990e0c2e43aa38e9da47eac1580/e4fe0/qualtrics.png",
+    "width": 300,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 3047,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "interact-suite.png",
+    "url": "https://www.techpac.lk/static/601e645f3aadc9c265a214505a21dfea/9d018/Interact-suite.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 3722,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "softlogic.png",
+    "url": "https://www.techpac.lk/static/aba2f7775e89927cb3555ac9246a58d8/8cb4c/softlogic.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 102714,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "union.png",
+    "url": "https://www.techpac.lk/static/9b5db97ab393af9db7d2bc3cb22b1205/8cb4c/union.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 104036,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "uoc.png",
+    "url": "https://www.techpac.lk/static/a8d6af1193ca4c2d445ea95597e23491/8cb4c/uoc.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 128785,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "water.png",
+    "url": "https://www.techpac.lk/static/9f7a1fc899abe6b47992cf4c20b6d716/8cb4c/water.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 126802,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "amaya.png",
+    "url": "https://www.techpac.lk/static/60463ecdcc85b52e2f57ae77e51bd384/8cb4c/amaya.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 122836,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "atg.png",
+    "url": "https://www.techpac.lk/static/ae745849812e89a8853ec25fa201f9b5/8cb4c/atg.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 108150,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "baurs.png",
+    "url": "https://www.techpac.lk/static/b614281fc5505cdb23c4bf98fddda659/8cb4c/baurs.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 120070,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "belmond.png",
+    "url": "https://www.techpac.lk/static/12dc316ef09a0e462c669fb9d199ee21/8cb4c/belmond.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 110731,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "drp.png",
+    "url": "https://www.techpac.lk/static/abb5fa7a4ce6b2fd7aec53e990440da6/8cb4c/drp.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 111410,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "ediri.png",
+    "url": "https://www.techpac.lk/static/d8097a13007becbffd8dcfc757f39c4e/8cb4c/ediri.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 111920,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "genie.png",
+    "url": "https://www.techpac.lk/static/364dbb47e5739bc050b73644091dcd56/8cb4c/genie.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 121045,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "george.png",
+    "url": "https://www.techpac.lk/static/6c7c9b9e1a3d8cb70d3781adf4760735/8cb4c/george.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 115654,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "hid.png",
+    "url": "https://www.techpac.lk/static/0e89f99b1e2cdff8ca740942f89ca977/8cb4c/hid.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 111696,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "hnb.png",
+    "url": "https://www.techpac.lk/static/346e9519f6616bb5d6223fe0a043b218/8cb4c/hnb.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 138851,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "hutch.png",
+    "url": "https://www.techpac.lk/static/88a4d495e16c1bc2e4943dace810cfe1/8cb4c/hutch.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 110036,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "laugfs.png",
+    "url": "https://www.techpac.lk/static/53e4ce3e3f123196fce7fc2bffe1f3df/8cb4c/laugfs.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 110473,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "litro.png",
+    "url": "https://www.techpac.lk/static/06bb52da683f5ba2139f6bb2e1c67970/8cb4c/litro.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 111807,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "pan.png",
+    "url": "https://www.techpac.lk/static/1f7b2577ebc43eaa0f4b6ec7a30a70ff/8cb4c/pan.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 106611,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "shangrila.png",
+    "url": "https://www.techpac.lk/static/e78950bb45c81150806314ec36abf6bf/8cb4c/shangrila.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 107625,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "singer.png",
+    "url": "https://www.techpac.lk/static/08841090f30d24e44bea83d213986b46/8cb4c/singer.png",
+    "width": 800,
+    "source_page": "https://www.techpac.lk/products/applications/",
+    "bytes": 102216,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "highoctane.png",
+    "url": "https://www.techpac.lk/static/dd005c928f428302b06a1d22b3cd056c/762c7/highoctane.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 34908,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "lassanaflora.png",
+    "url": "https://www.techpac.lk/static/58ba717f344a56e048d6344f9fdd4d51/c7352/lassanaflora.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 36724,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "parfume.png",
+    "url": "https://www.techpac.lk/static/0685a50b196244fa42737e5596b14447/762c7/parfume.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 35911,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "pepsi.png",
+    "url": "https://www.techpac.lk/static/339f131338353e5e61f8c3e4a531decb/b8fbd/pepsi.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 35658,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "rathna.png",
+    "url": "https://www.techpac.lk/static/63fea9cf31012706bd8efb0bcd118276/b8fbd/rathna.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 41890,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "threek.png",
+    "url": "https://www.techpac.lk/static/592444d87dd59559e84c832a57e3ee55/762c7/threek.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 39978,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "access.png",
+    "url": "https://www.techpac.lk/static/63fad47ffd1a83998891e1fd231b902d/762c7/access.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 37857,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "art.png",
+    "url": "https://www.techpac.lk/static/b6f35c541ee24a9f45e31ccab7e6e901/762c7/art.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 36126,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "chinese.png",
+    "url": "https://www.techpac.lk/static/03a23f13cdc967752f7b1842fcd99943/c7352/chinese.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 34217,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "coffee.png",
+    "url": "https://www.techpac.lk/static/ae50589d0109ccc001c3793f2318b3dc/b8fbd/coffee.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 38153,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "cuddles.png",
+    "url": "https://www.techpac.lk/static/703263675342d7443479b81ae5782817/c7352/cuddles.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 38692,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "ekko.png",
+    "url": "https://www.techpac.lk/static/ec1fb3b81c424199bf19fae71132f00c/c7352/ekko.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 35038,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "gac.png",
+    "url": "https://www.techpac.lk/static/4dd23eb24a4c98061175d18e2a0e838a/762c7/gac.png",
+    "width": 386,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 36097,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "arrow.png",
+    "url": "https://www.techpac.lk/static/e378dddca53178e7414ae97cbe9849e2/b041f/arrow.png",
+    "width": 78,
+    "source_page": "https://www.techpac.lk/products/cloud-solutions/",
+    "bytes": 506,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "aws.png",
+    "url": "https://www.techpac.lk/static/eab633f60d19c37b2aad55692db8234c/51a50/AWS.png",
+    "width": 236,
+    "source_page": "https://www.techpac.lk/products/cloud-solutions/",
+    "bytes": 3408,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "aws-text.png",
+    "url": "https://www.techpac.lk/static/0243557bfe947a7fe6742cb8aefb8ba2/98fd4/aws_text.png",
+    "width": 3404,
+    "source_page": "https://www.techpac.lk/products/cloud-solutions/",
+    "bytes": 42100,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "huawei.png",
+    "url": "https://www.techpac.lk/static/e86ab00be3cc25d4dead09a507f43e75/9c634/Huawei.png",
+    "width": 136,
+    "source_page": "https://www.techpac.lk/products/cloud-solutions/",
+    "bytes": 2359,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "cc.png",
+    "url": "https://www.techpac.lk/static/e45186269b777eedab20b035b38afd03/63675/CC.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/products/cloud-solutions/",
+    "bytes": 3383,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "orel.png",
+    "url": "https://www.techpac.lk/static/cc7e7c2d2cb91cb5ab13ed52d3c49820/e8327/Orel.png",
+    "width": 300,
+    "source_page": "https://www.techpac.lk/products/cloud-solutions/",
+    "bytes": 2505,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "acorn.png",
+    "url": "https://www.techpac.lk/static/d81bb06814a0af6b82e05f9e755b76e7/c7240/acorn.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/success-stories/redefining-travel/",
+    "bytes": 58627,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "teejay.png",
+    "url": "https://www.techpac.lk/static/f9d9037a4b9b4f6321131d697bf00f0a/c7240/teejay.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/success-stories/strategic-hr/",
+    "bytes": 64530,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "um.png",
+    "url": "https://www.techpac.lk/static/1174e2bdb2ec62f50e253b37074c4d30/c7240/um.png",
+    "width": 600,
+    "source_page": "https://www.techpac.lk/success-stories/achieving-business-agility/",
+    "bytes": 60019,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "tech%20pac%20copy.png",
+    "url": "https://www.techpac.lk/static/ad1d311382a03ed67fdce0fd58c6c283/28684/Tech%20pac%20copy.png",
+    "width": 1920,
+    "source_page": "https://www.techpac.lk/careers/",
+    "bytes": 770122,
+    "content_type": "image/png"
+  },
+  {
+    "filename": "mangala.jpg",
+    "url": "https://www.techpac.lk/static/1f40d4d9270be2725daf681d8e6f113b/d8472/mangala.jpg",
+    "width": 282,
+    "source_page": "https://www.techpac.lk/about/",
+    "bytes": 43747,
+    "content_type": "image/jpeg"
+  },
+  {
+    "filename": "ezuite.png",
+    "url": "https://www.techpac.lk/static/feb721739ad34853b01bd37fce713cb4/a5cca/logo.png",
+    "width": 400,
+    "source_page": "https://www.techpac.lk/products/e-zuite/",
+    "bytes": 1746
+  },
+  {
+    "filename": "coreldraw.png",
+    "url": "https://www.techpac.lk/static/63d2af69cf7d028dbb3321dd8cdfe83f/0bc69/corel_d.png",
+    "width": 1920,
+    "bytes": 72449,
+    "source_page": "https://www.techpac.lk/ (public page data)"
+  }
+]

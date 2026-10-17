@@ -1,0 +1,57 @@
+# Tech Pacific homepage
+
+A responsive, editorial homepage based on the supplied visual reference and the company's source research. The reference informs composition only; all business content comes from Tech Pacific research.
+
+## Stack
+
+- Next.js **16.4.2**, App Router and TypeScript
+- React **19.3.1**
+- Tailwind CSS **4.3.3**, custom design tokens and responsive CSS
+- Locally hosted Manrope variable font
+- Static export, suitable for ordinary static hosting
+
+## Run
+
+```sh
+npm install
+npm run dev
+```
+
+Open http://127.0.0.1:3000. For the production version:
+
+```sh
+npm run build
+npm start
+```
+
+`npm run typecheck` checks TypeScript. The build uses Next.js's supported Webpack mode because the current execution environment blocks the port binding required by Turbopack's production CSS compiler. The application remains a standard Next.js 16 project. The development script uses the Next.js default bundler.
+
+## Experience
+
+- Blue/green brand palette, oversized typography, custom hero art and an editorial product grid
+- Six selectable solution panels and an enquiry selector that follows the chosen solution
+- Named client stories, source links, story controls and testimonial navigation
+- Keyboard-operable mobile navigation with Escape dismissal
+- Accessible FAQ buttons, labelled forms, reduced-motion support, and responsive layouts
+- Business contacts, maps, email and WhatsApp links
+
+The contact form validates required fields and prepares a `mailto:` draft. It does **not** send email directly or store submissions. A production email/CRM service can be connected later. Product details, case studies and policies link to the existing site because this task covers the homepage only.
+
+The preview is marked `noindex` and has preview-domain metadata. Update metadata and indexing when moving to the client's approved production domain. No existing Tech Pacific website was changed.
+
+## Assets
+
+- `public/brand/techpac.svg`: clean vector reconstruction based on the original company logo
+- `public/brand/techpac@6x.png`: high-resolution transparent export
+- `public/brand/originals/`: extracted source marks, logos and selected reference assets, using their highest advertised image widths
+- `public/brand/asset-provenance.json`: source URLs and download records
+- `public/images/`: optimised WebP brand imagery
+- `assets/generated/`: full-resolution generated originals and exact prompts
+
+Official vendor marks are preserved. Light-colour source marks receive appropriate contrast treatment in CSS. Generated imagery is illustrative; it is not a photograph of Tech Pacific's own facilities.
+
+## Verification
+
+The homepage was checked in a real browser at CSS widths 320, 390, 768, approximately 1024, 1440 and 1920 pixels, with no page-level horizontal overflow. All six solution panels, mobile navigation, Escape dismissal, FAQ expansion, client-story navigation, testimonial navigation and enquiry preselection were exercised. Required name, company and email fields were verified. No enquiry was sent.
+
+`qa/responsive-checks.json` records these checks. A visual preview is saved in `qa/`. Source research remains in the parent workspace's `RESEARCH.md` and `research/` directory.
