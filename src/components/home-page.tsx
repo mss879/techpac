@@ -3,7 +3,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import {
   ArrowDown, ArrowDownRight, ArrowLeft, ArrowRight, ArrowUpRight,
-  Check, Globe2, Layers3, Menu, Plus, X,
+  Check, ChevronDown, Globe2, Layers3, Menu, Plus, Search, X,
   CircleCheck, MapPin, Linkedin, Phone,
 } from "lucide-react";
 
@@ -86,26 +86,75 @@ function ContactForm({ interest }: { interest: string }) {
 
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
   const [activeSolution, setActiveSolution] = useState(0);
   const [storyOffset, setStoryOffset] = useState(0);
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [interest, setInterest] = useState("");
   const menuButton = useRef<HTMLButtonElement>(null);
+  const productsButton = useRef<HTMLButtonElement>(null);
+  const exploreButton = useRef<HTMLButtonElement>(null);
+  const searchInput = useRef<HTMLInputElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
   const detailRef = useRef<HTMLDivElement>(null);
   const detailTitle = useRef<HTMLHeadingElement>(null);
   const menuId = useId();
+  const productsId = useId();
+  const searchId = useId();
   const current = solutions[activeSolution];
   const quote = quotes[quoteIndex];
 
   useEffect(() => {
-    if (!menuOpen) return;
+    if (!menuOpen && !productsOpen && !searchOpen) return;
     function onKey(event: KeyboardEvent) {
-      if (event.key === "Escape") { setMenuOpen(false); menuButton.current?.focus(); }
+      if (event.key !== "Escape") return;
+      if (searchOpen) {
+        setSearchOpen(false);
+        (window.matchMedia("(max-width: 1100px)").matches ? menuButton : exploreButton).current?.focus();
+      } else if (productsOpen) {
+        setProductsOpen(false);
+        productsButton.current?.focus();
+      } else {
+        setMenuOpen(false);
+        menuButton.current?.focus();
+      }
+    }
+    function onOutsideClick(event: MouseEvent) {
+      if (!headerRef.current?.contains(event.target as Node)) {
+        setProductsOpen(false);
+        setSearchOpen(false);
+        setMenuOpen(false);
+      }
     }
     document.addEventListener("keydown", onKey);
-    return () => document.removeEventListener("keydown", onKey);
-  }, [menuOpen]);
+    document.addEventListener("mousedown", onOutsideClick);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onOutsideClick);
+    };
+  }, [menuOpen, productsOpen, searchOpen]);
+
+  useEffect(() => {
+    if (searchOpen) searchInput.current?.focus();
+  }, [searchOpen]);
+
+  function closeNavigation() {
+    setMenuOpen(false);
+    setProductsOpen(false);
+    setSearchOpen(false);
+  }
+
+  const productLabels = ["SAP", "eZuite - ERP", "Digital Infrastructure", "Applications", "Cloud Solutions", "System Integration"];
+  const searchItems = [
+    ...solutions.map((solution, index) => ({label:productLabels[index],href:"#solution-detail",keywords:solution.products.join(" "),index})),
+    {label:"About Tech Pacific",href:"#about",keywords:"company history team partner",index:-1},
+    {label:"Success Stories",href:"#stories",keywords:"Acorn Teejay United Motors customers case studies",index:-1},
+    {label:"Contact Us",href:"#contact",keywords:"demo enquiry email phone address",index:-1},
+    {label:"Blog",href:"https://www.techpac.lk/blog/",keywords:"articles news insights",index:-1},
+  ].filter(item => `${item.label} ${item.keywords}`.toLowerCase().includes(searchQuery.trim().toLowerCase()));
 
   function exploreSolution(index: number) {
     setActiveSolution(index);
@@ -120,14 +169,29 @@ export default function HomePage() {
   return <>
     <a className="skip-link" href="#main">Skip to content</a>
     <div className="site-shell">
-      <header className="header wrap">
+      <header ref={headerRef} className="header wrap">
         <a href="#" className="brand" aria-label="Tech Pacific home"><img src="/brand/techpac.svg" alt="Tech Pacific" width="112" height="58" /></a>
         <nav aria-label="Main navigation" className={`nav ${menuOpen ? "nav-open" : ""}`} id={menuId}>
-          {[ ["Solutions", "#solutions"], ["Our approach", "#approach"], ["Client stories", "#stories"], ["About us", "#about"] ].map(([label,href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}
-          <a className="mobile-contact" href="#contact" onClick={() => setMenuOpen(false)}>Let’s talk <Arrow /></a>
+          <a href="#solution-detail" onClick={() => {setActiveSolution(0);closeNavigation();}}>SAP</a>
+          <div className="nav-products">
+            <button ref={productsButton} className="nav-disclosure" aria-expanded={productsOpen} aria-controls={productsId} onClick={() => {setProductsOpen(v=>!v);setSearchOpen(false);}}>Products <ChevronDown size={13} aria-hidden="true" /></button>
+            <div id={productsId} className="products-dropdown" hidden={!productsOpen}>
+              <span className="dropdown-caption">OUR PRODUCT PORTFOLIO</span>
+              {solutions.map((solution,index)=><a key={solution.id} href="#solution-detail" onClick={() => {setActiveSolution(index);closeNavigation();}}><span>{productLabels[index]}</span><Arrow size={14} /></a>)}
+            </div>
+          </div>
+          {[ ["About", "#about"], ["Success Stories", "#stories"], ["Contact Us", "#contact"] ].map(([label,href]) => <a key={href} href={href} onClick={closeNavigation}>{label}</a>)}
+          <a href="https://www.techpac.lk/blog/" target="_blank" rel="noreferrer" onClick={closeNavigation}>Blog</a>
+          <button ref={exploreButton} className="nav-disclosure explore-toggle" aria-expanded={searchOpen} aria-controls={searchId} onClick={() => {setSearchOpen(v=>!v);setProductsOpen(false);setMenuOpen(false);}}>Explore <Search size={16} aria-hidden="true" /></button>
+          <a className="mobile-contact" href="#contact" onClick={() => {startEnquiry("Let’s find the right solution");closeNavigation();}}>Request a Demo <Arrow /></a>
         </nav>
-        <a className="header-cta button blue-button" href="#contact" onClick={() => startEnquiry("Let’s find the right solution")}>Let’s talk <Arrow size={17} /></a>
-        <button ref={menuButton} className="menu-toggle" onClick={() => setMenuOpen(v=>!v)} aria-expanded={menuOpen} aria-controls={menuId} aria-label={menuOpen ? "Close navigation" : "Open navigation"}>{menuOpen ? <X /> : <Menu />}</button>
+        <a className="header-cta button blue-button" href="#contact" onClick={() => {startEnquiry("Let’s find the right solution");closeNavigation();}}>Request a Demo <Arrow size={17} /></a>
+        <button ref={menuButton} className="menu-toggle" onClick={() => {setMenuOpen(v=>!v);setProductsOpen(false);setSearchOpen(false);}} aria-expanded={menuOpen} aria-controls={menuId} aria-label={menuOpen ? "Close navigation" : "Open navigation"}>{menuOpen ? <X /> : <Menu />}</button>
+        <div id={searchId} className="site-search" role="search" aria-label="Explore Tech Pacific" hidden={!searchOpen}>
+          <div className="search-field"><Search size={18} aria-hidden="true" /><input ref={searchInput} type="search" aria-label="Search Tech Pacific" placeholder="Find a product, service or story…" value={searchQuery} onChange={event=>setSearchQuery(event.target.value)} /><button aria-label="Close search" onClick={() => {setSearchOpen(false);(window.matchMedia("(max-width: 1100px)").matches ? menuButton : exploreButton).current?.focus();}}><X size={19} /></button></div>
+          <span className="dropdown-caption" aria-live="polite">{searchQuery ? `${searchItems.length} ${searchItems.length===1?"RESULT":"RESULTS"}` : "EXPLORE TECH PACIFIC"}</span>
+          <div className="search-results">{searchItems.map(item=><a key={item.label} href={item.href} target={item.href.startsWith("https:")?"_blank":undefined} rel={item.href.startsWith("https:")?"noreferrer":undefined} onClick={() => {if(item.index>=0)setActiveSolution(item.index);closeNavigation();}}>{item.label}<Arrow size={15} /></a>)}{searchItems.length===0&&<p>No matches yet. Try “SAP”, “cloud” or “contact”.</p>}</div>
+        </div>
       </header>
 
       <main id="main">

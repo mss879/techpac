@@ -32,6 +32,7 @@ npm start
 - Six selectable solution panels and an enquiry selector that follows the chosen solution
 - Named client stories, source links, story controls and testimonial navigation
 - Keyboard-operable mobile navigation with Escape dismissal
+- Original navigation labels: SAP, Products (all six options), About, Success Stories, Contact Us, Blog, Explore search, and Request a Demo; Blog opens the existing website, while built homepage sections stay local
 - Accessible FAQ buttons, labelled forms, reduced-motion support, and responsive layouts
 - Business contacts, maps, email and WhatsApp links
 
@@ -55,3 +56,5 @@ Official vendor marks are preserved. Light-colour source marks receive appropria
 The homepage was checked in a real browser at CSS widths 320, 390, 768, approximately 1024, 1440 and 1920 pixels, with no page-level horizontal overflow. All six solution panels, mobile navigation, Escape dismissal, FAQ expansion, client-story navigation, testimonial navigation and enquiry preselection were exercised. Required name, company and email fields were verified. No enquiry was sent.
 
 `qa/responsive-checks.json` records these checks. A visual preview is saved in `qa/`. Source research remains in the parent workspace's `RESEARCH.md` and `research/` directory.
+
+`qa/navigation-checks.json` records the restored navigation checks at 320, 768, 1100, 1200 and 1440 pixels, product selection on mobile, keyword/empty search, and Escape dismissal with focus restoration.
