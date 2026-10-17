@@ -14,7 +14,7 @@ for (const file of logos) {
   const output=`public/brand/optimized/${basename(file).replace(/\.[^.]+$/,".webp")}`;
   const size=(await stat(input)).size;
   let image = sharp(input);
-  if (file === "maliban-logo.png") image = image.trim();
+  if (["maliban-logo.png", "adobe.png", "team-viewer.png"].includes(file)) image = image.trim();
   const result=await image.resize({width:420,height:180,fit:"inside",withoutEnlargement:true}).webp({quality:92,alphaQuality:100,effort:6}).toFile(output);
   results.push({source:input,output,before:size,after:result.size,width:result.width,height:result.height});
 }

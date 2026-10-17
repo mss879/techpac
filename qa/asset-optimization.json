@@ -1,7 +1,7 @@
 {
   "logos": 18,
   "originalLogoBytes": 896487,
-  "optimizedLogoBytes": 179208,
+  "optimizedLogoBytes": 178484,
   "logoByteReductionPercent": 80,
   "files": [
     {
@@ -72,9 +72,9 @@
       "source": "public/brand/originals/adobe.png",
       "output": "public/brand/optimized/adobe.webp",
       "before": 56710,
-      "after": 16518,
+      "after": 16056,
       "width": 420,
-      "height": 175
+      "height": 101
     },
     {
       "source": "public/brand/originals/aws.png",
@@ -128,9 +128,9 @@
       "source": "public/brand/originals/team-viewer.png",
       "output": "public/brand/optimized/team-viewer.webp",
       "before": 42502,
-      "after": 14942,
+      "after": 14680,
       "width": 420,
-      "height": 175
+      "height": 96
     },
     {
       "source": "public/brand/originals/huawei.png",

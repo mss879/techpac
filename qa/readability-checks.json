@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-17",
+  "checks": [
+    {
+      "cardColumns": "273.993px",
+      "copy": "16px",
+      "documentWidth": 320,
+      "headerOverflow": [],
+      "productList": "16px",
+      "textBelow13px": [],
+      "width": 320
+    },
+    {
+      "cardColumns": "335.99px",
+      "copy": "16px",
+      "documentWidth": 390,
+      "headerOverflow": [],
+      "productList": "16px",
+      "textBelow13px": [],
+      "width": 390
+    },
+    {
+      "cardColumns": "334.887px 334.887px",
+      "copy": "18px",
+      "documentWidth": 768,
+      "headerOverflow": [],
+      "productList": "16px",
+      "textBelow13px": [],
+      "width": 768
+    },
+    {
+      "cardColumns": "485px 485px",
+      "copy": "18px",
+      "documentWidth": 1100,
+      "headerOverflow": [],
+      "productList": "16px",
+      "textBelow13px": [],
+      "width": 1100
+    },
+    {
+      "cardColumns": "535px 535px",
+      "copy": "18px",
+      "documentWidth": 1200,
+      "headerOverflow": [],
+      "productList": "16px",
+      "textBelow13px": [],
+      "width": 1200
+    },
+    {
+      "cardColumns": "414.67px 414.67px 414.67px",
+      "copy": "18px",
+      "documentWidth": 1440,
+      "headerOverflow": [],
+      "productList": "16px",
+      "textBelow13px": [],
+      "width": 1440
+    },
+    {
+      "cardColumns": "414.67px 414.67px 414.67px",
+      "copy": "18px",
+      "documentWidth": 1920,
+      "headerOverflow": [],
+      "productList": "16px",
+      "textBelow13px": [],
+      "width": 1920
+    }
+  ],
+  "solutionChecks": [
+    {
+      "font": "16px",
+      "heading": "Your whole business.On the same page.",
+      "overflow": false,
+      "selected": "SAP SOLUTIONS"
+    },
+    {
+      "font": "16px",
+      "heading": "Less disconnected.More in control.",
+      "overflow": false,
+      "selected": "eZUITE ERP"
+    },
+    {
+      "font": "16px",
+      "heading": "Behind every ambition,a resilient foundation.",
+      "overflow": false,
+      "selected": "DIGITAL INFRASTRUCTURE"
+    },
+    {
+      "font": "16px",
+      "heading": "The right tools.A world of possibility.",
+      "overflow": false,
+      "selected": "BUSINESS APPLICATIONS"
+    },
+    {
+      "font": "16px",
+      "heading": "Your next chapter.Without the limits.",
+      "overflow": false,
+      "selected": "CLOUD SOLUTIONS"
+    },
+    {
+      "font": "16px",
+      "heading": "Confidence.Built into every layer.",
+      "overflow": false,
+      "selected": "SYSTEM INTEGRATION"
+    }
+  ],
+  "productionBuild": "passed",
+  "productionCopyDesktop": "18px",
+  "productionCopyMobile": "16px",
+  "productionProductList": "16px",
+  "mobileMenu": {
+    "font": "16px",
+    "products": 6,
+    "overflow": false
+  },
+  "cardContentBoundsDesktop": "passed",
+  "note": "The SAP card has an intentionally clipped decorative pseudo-element; content bounds were checked separately."
+}
