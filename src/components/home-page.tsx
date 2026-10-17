@@ -1,13 +1,15 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
+import LogoMarquee from "./logo-marquee";
+import ScrollMotion from "./scroll-motion";
 import {
   ArrowDown, ArrowDownRight, ArrowLeft, ArrowRight, ArrowUpRight,
   Check, ChevronDown, Globe2, Layers3, Menu, Plus, Search, X,
   CircleCheck, MapPin, Linkedin, Phone,
 } from "lucide-react";
 
-const asset = (name: string) => `/brand/originals/${name}`;
+const asset = (name: string) => `/brand/optimized/${name.replace(/\.[^.]+$/,".webp")}`;
 
 const solutions = [
   { id: "sap", number: "01", title: "A smarter way\nto run your business.", category: "SAP SOLUTIONS", short: "Connect your processes. See the bigger picture.", logo: "sap4hana.png", className: "sap-card", heading: "Your whole business.\nOn the same page.", description: "Bring finance, operations, people and customers together with SAP. We help you choose the right platform, shape it around your business, and make the move with confidence.", products: ["GROW with SAP", "RISE with SAP", "SAP Business One", "SAP Business ByDesign", "SAP SuccessFactors", "SAP Business Data Cloud"], source: "https://www.techpac.lk/sap/", contact: "SAP & enterprise transformation" },
@@ -167,6 +169,7 @@ export default function HomePage() {
   function startEnquiry(value: string) { setInterest(value); }
 
   return <>
+    <ScrollMotion />
     <a className="skip-link" href="#main">Skip to content</a>
     <div className="site-shell">
       <header ref={headerRef} className="header wrap">
@@ -203,19 +206,14 @@ export default function HomePage() {
             <div className="hero-description"><p>Big ideas need the right technology.<br className="desktop-break" /> We bring the systems, expertise and people<br className="desktop-break" /> together to move your business forward.</p><a href="#solutions" className="text-link">Find your next move <ArrowDownRight size={18} /></a></div>
           </div>
           <div className="hero-art">
-            <img className="hero-image" src="/images/connected-flow.webp" alt="Sculptural blue metal and green glass ribbons flowing together, inspired by the Tech Pacific identity" width="2000" height="770" fetchPriority="high" />
+            <img className="hero-image" src="/images/connected-flow.webp" srcSet="/images/connected-flow-768.webp 768w, /images/connected-flow-1280.webp 1280w, /images/connected-flow.webp 2000w" sizes="(max-width: 700px) calc(100vw - 54px), (max-width: 960px) calc(100vw - 80px), (max-width: 1200px) calc(100vw - 112px), (max-width: 1440px) calc(100vw - 144px), 1280px" alt="Sculptural blue metal and green glass ribbons flowing together, inspired by the Tech Pacific identity" width="2000" height="770" fetchPriority="high" decoding="async" />
             <span className="art-label"><span className="art-plus">+</span> BETTER, TOGETHER.</span>
             <a className="hero-scroll" href="#solutions" aria-label="Explore our solutions"><ArrowDown size={21} /></a>
             <div className="hero-art-caption"><span>Complexity, simplified.</span><span>Possibility, unlocked.</span></div>
           </div>
         </section>
 
-        <section className="trust wrap" aria-label="Selected customers">
-          <div className="trust-label"><span className="eyebrow">IN GOOD COMPANY</span><p>Trusted by businesses<br />moving Sri Lanka forward.</p></div>
-          <div className="customer-logos">
-            {[ ["dimo-logo.png","DIMO"], ["maliban-logo.png","Maliban"], ["bppl-logo.jpg","BPPL Holdings"], ["gtn-logo.jpg","GTN Technologies"], ["teejay.png","Teejay Lanka"] ].map(([file,name])=><img key={file} src={asset(file)} alt={name} width="140" height="65" loading="lazy" />)}
-          </div>
-        </section>
+        <LogoMarquee />
 
         <section className="solutions-section wrap section-space" id="solutions" aria-labelledby="solutions-heading">
           <div className="section-heading"><div><span className="eyebrow blue-text">01 / WHAT WE MAKE POSSIBLE</span><h2 id="solutions-heading">One partner.<br />Every possibility.</h2></div><div className="section-heading-note"><p>From the software that runs your business<br className="desktop-break" /> to the infrastructure that keeps it moving.<br className="desktop-break" /> Everything works better, connected.</p><span className="mini-label">SIX CAPABILITIES. ONE CLEAR DIRECTION.</span></div></div>
@@ -248,7 +246,7 @@ export default function HomePage() {
         <section id="about" className="about-section wrap section-space" aria-labelledby="about-heading">
           <div className="about-heading"><span className="eyebrow blue-text">02 / A PARTNER IN YOUR PROGRESS</span><h2 id="about-heading">Technology changes.<br />Our commitment doesn’t.</h2></div>
           <div className="about-layout">
-            <div className="infrastructure-image"><img src="/images/infrastructure.webp" width="1536" height="1024" alt="Precisely engineered server infrastructure with blue and green status lights" loading="lazy" /><div className="image-corner-mark" aria-hidden="true">↗</div><span className="image-caption">A STRONGER FOUNDATION FOR WHAT’S NEXT.</span></div>
+            <div className="infrastructure-image"><img src="/images/infrastructure.webp" srcSet="/images/infrastructure-640.webp 640w, /images/infrastructure-960.webp 960w, /images/infrastructure.webp 1536w" sizes="(max-width: 700px) calc(100vw - 54px), (max-width: 1440px) 50vw, 650px" width="1536" height="1024" alt="Precisely engineered server infrastructure with blue and green status lights" loading="lazy" decoding="async" /><div className="image-corner-mark" aria-hidden="true">↗</div><span className="image-caption">A STRONGER FOUNDATION FOR WHAT’S NEXT.</span></div>
             <div className="about-copy"><span className="small-heading">GLOBAL THINKING. LOCAL UNDERSTANDING.</span><p className="about-lead">We make the complex<br className="desktop-break" /> feel possible.</p><p>Since 2008, we’ve evolved alongside the businesses we serve. From enterprise applications to critical infrastructure, our role is to understand your world — then bring the right technology into it.</p><p>You get global platforms, specialist expertise and a team close enough to care. From the first conversation to the next chapter.</p><a href="#contact" className="button outline-button">Get to know your next partner <Arrow /></a></div>
           </div>
           <div className="company-stats"><div><span>2008</span><p>Our journey began.<br />Our curiosity never stopped.</p></div><div><span>06</span><p>Connected capabilities.<br />Built around your business.</p></div><div><span>01</span><p>Accountable partner.<br />With you for the long run.</p></div></div>

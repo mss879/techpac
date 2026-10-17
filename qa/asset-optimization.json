@@ -1,0 +1,180 @@
+{
+  "logos": 18,
+  "originalLogoBytes": 896487,
+  "optimizedLogoBytes": 179208,
+  "logoByteReductionPercent": 80,
+  "files": [
+    {
+      "source": "public/brand/originals/dimo-logo.png",
+      "output": "public/brand/optimized/dimo-logo.webp",
+      "before": 2992,
+      "after": 5808,
+      "width": 305,
+      "height": 159
+    },
+    {
+      "source": "public/brand/originals/maliban-logo.png",
+      "output": "public/brand/optimized/maliban-logo.webp",
+      "before": 46262,
+      "after": 20512,
+      "width": 420,
+      "height": 114
+    },
+    {
+      "source": "public/brand/originals/bppl-logo.jpg",
+      "output": "public/brand/optimized/bppl-logo.webp",
+      "before": 15967,
+      "after": 4464,
+      "width": 139,
+      "height": 180
+    },
+    {
+      "source": "public/brand/originals/gtn-logo.jpg",
+      "output": "public/brand/optimized/gtn-logo.webp",
+      "before": 94481,
+      "after": 5814,
+      "width": 344,
+      "height": 180
+    },
+    {
+      "source": "public/brand/originals/teejay.png",
+      "output": "public/brand/optimized/teejay.webp",
+      "before": 64530,
+      "after": 19412,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "source": "public/brand/originals/sap4hana.png",
+      "output": "public/brand/optimized/sap4hana.webp",
+      "before": 28540,
+      "after": 9988,
+      "width": 420,
+      "height": 62
+    },
+    {
+      "source": "public/brand/originals/ezuite.png",
+      "output": "public/brand/optimized/ezuite.webp",
+      "before": 1746,
+      "after": 3450,
+      "width": 400,
+      "height": 108
+    },
+    {
+      "source": "public/brand/originals/vertiv-authorized-business-partner.png",
+      "output": "public/brand/optimized/vertiv-authorized-business-partner.webp",
+      "before": 399890,
+      "after": 7460,
+      "width": 420,
+      "height": 154
+    },
+    {
+      "source": "public/brand/originals/adobe.png",
+      "output": "public/brand/optimized/adobe.webp",
+      "before": 56710,
+      "after": 16518,
+      "width": 420,
+      "height": 175
+    },
+    {
+      "source": "public/brand/originals/aws.png",
+      "output": "public/brand/optimized/aws.webp",
+      "before": 3408,
+      "after": 8322,
+      "width": 236,
+      "height": 141
+    },
+    {
+      "source": "public/brand/originals/p16.png",
+      "output": "public/brand/optimized/p16.webp",
+      "before": 3202,
+      "after": 5232,
+      "width": 218,
+      "height": 40
+    },
+    {
+      "source": "public/brand/originals/acorn.png",
+      "output": "public/brand/optimized/acorn.webp",
+      "before": 58627,
+      "after": 20854,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "source": "public/brand/originals/um.png",
+      "output": "public/brand/optimized/um.webp",
+      "before": 60019,
+      "after": 20100,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "source": "public/brand/originals/alliance-finance-logo.jpg",
+      "output": "public/brand/optimized/alliance-finance-logo.webp",
+      "before": 11425,
+      "after": 3604,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "source": "public/brand/originals/salesforce.png",
+      "output": "public/brand/optimized/salesforce.webp",
+      "before": 1794,
+      "after": 3948,
+      "width": 165,
+      "height": 116
+    },
+    {
+      "source": "public/brand/originals/team-viewer.png",
+      "output": "public/brand/optimized/team-viewer.webp",
+      "before": 42502,
+      "after": 14942,
+      "width": 420,
+      "height": 175
+    },
+    {
+      "source": "public/brand/originals/huawei.png",
+      "output": "public/brand/optimized/huawei.webp",
+      "before": 2359,
+      "after": 5674,
+      "width": 136,
+      "height": 138
+    },
+    {
+      "source": "public/brand/originals/p17.png",
+      "output": "public/brand/optimized/p17.webp",
+      "before": 2033,
+      "after": 3106,
+      "width": 234,
+      "height": 33
+    },
+    {
+      "source": "assets/generated/connected-flow.png",
+      "output": "public/images/connected-flow-768.webp",
+      "after": 31266,
+      "width": 768,
+      "height": 296
+    },
+    {
+      "source": "assets/generated/connected-flow.png",
+      "output": "public/images/connected-flow-1280.webp",
+      "after": 70204,
+      "width": 1280,
+      "height": 493
+    },
+    {
+      "source": "assets/generated/infrastructure.png",
+      "output": "public/images/infrastructure-640.webp",
+      "after": 33596,
+      "width": 640,
+      "height": 427
+    },
+    {
+      "source": "assets/generated/infrastructure.png",
+      "output": "public/images/infrastructure-960.webp",
+      "after": 74290,
+      "width": 960,
+      "height": 640
+    }
+  ]
+}

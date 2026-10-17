@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-17",
+  "target": "http://127.0.0.1:3000/",
+  "productionBuild": "passed",
+  "typescript": "passed",
+  "httpStatus": 200,
+  "fullColourLogos": {
+    "names": ["DIMO", "Maliban", "BPPL Holdings", "GTN Technologies", "Teejay Lanka"],
+    "computedFilter": "none",
+    "computedOpacity": "1",
+    "imagesLoaded": true,
+    "contrast": "DIMO white lettering shown on a dark green backing"
+  },
+  "loop": {
+    "durationSeconds": 38,
+    "groups": 2,
+    "equalDesktopGroupWidths": [1110,1110],
+    "translationSamples": [-141.423,-318.881],
+    "pauseButton": "passed",
+    "pausedTranslationSamples": [-78.8652,-78.8652],
+    "keyboardSpaceResumes": true,
+    "offscreenPauses": true,
+    "duplicateGroupHiddenFromAssistiveTechnology": true
+  },
+  "scrollReveals": {
+    "pendingAtInitialLoad": 36,
+    "visibleAfterScroll": 12,
+    "pendingAfterScroll": 24,
+    "headingOpacityAfterReveal": "1",
+    "implementation": "shared IntersectionObserver; reveal each target once; no per-frame JavaScript scroll loop"
+  },
+  "responsive": [
+    {"width":320,"documentWidth":320,"marqueeWidth":274,"groupWidth":770,"brokenImages":0},
+    {"width":390,"documentWidth":390,"marqueeWidth":336,"groupWidth":770,"brokenImages":0},
+    {"width":768,"documentWidth":768,"marqueeWidth":531,"groupWidth":890,"brokenImages":0},
+    {"width":1440,"documentWidth":1440,"marqueeWidth":1054,"groupWidth":1110,"brokenImages":0}
+  ],
+  "mobileHeroSourceAfterReload": "/images/connected-flow-768.webp",
+  "mobileNavigationOpenAndEscape": "passed",
+  "consoleErrorsOrWarnings": [],
+  "sourceInspectedOnly": ["prefers-reduced-motion fallback", "hidden-tab animation pause"],
+  "performanceScope": "Asset byte savings and responsive source selection measured; no Lighthouse or field Core Web Vitals audit run."
+}

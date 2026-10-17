@@ -35,6 +35,8 @@ npm start
 - Original navigation labels: SAP, Products (all six options), About, Success Stories, Contact Us, Blog, Explore search, and Request a Demo; Blog opens the existing website, while built homepage sections stay local
 - Accessible FAQ buttons, labelled forms, reduced-motion support, and responsive layouts
 - Business contacts, maps, email and WhatsApp links
+- Continuous full-colour customer-logo loop with keyboard-operable pause/play; animation pauses offscreen, in hidden tabs, and on hover
+- Once-only section reveals with subtle stagger and a CSS scroll-linked hero effect where supported; reduced-motion preferences disable these effects
 
 The contact form validates required fields and prepares a `mailto:` draft. It does **not** send email directly or store submissions. A production email/CRM service can be connected later. Product details, case studies and policies link to the existing site because this task covers the homepage only.
 
@@ -46,10 +48,13 @@ The preview is marked `noindex` and has preview-domain metadata. Update metadata
 - `public/brand/techpac@6x.png`: high-resolution transparent export
 - `public/brand/originals/`: extracted source marks, logos and selected reference assets, using their highest advertised image widths
 - `public/brand/asset-provenance.json`: source URLs and download records
+- `public/brand/optimized/`: display-sized WebP versions of the original marks; DIMO's white mark receives a dark backing, preserving its colours
 - `public/images/`: optimised WebP brand imagery
 - `assets/generated/`: full-resolution generated originals and exact prompts
 
 Official vendor marks are preserved. Light-colour source marks receive appropriate contrast treatment in CSS. Generated imagery is illustrative; it is not a photograph of Tech Pacific's own facilities.
+
+Run `node scripts/optimize-assets.mjs` to regenerate the display assets. The 18 prepared logo files total 179,208 bytes versus 896,487 bytes for their source files, an 80% reduction. Hero and infrastructure imagery use responsive WebP sources; secondary imagery is lazy-loaded. Motion uses CSS transforms and a shared IntersectionObserver for section reveals, without a JavaScript animation loop or added animation dependency. These are asset and implementation measurements, not a Lighthouse score or a claim about whole-page transfer savings.
 
 ## Verification
 
@@ -58,3 +63,5 @@ The homepage was checked in a real browser at CSS widths 320, 390, 768, approxim
 `qa/responsive-checks.json` records these checks. A visual preview is saved in `qa/`. Source research remains in the parent workspace's `RESEARCH.md` and `research/` directory.
 
 `qa/navigation-checks.json` records the restored navigation checks at 320, 768, 1100, 1200 and 1440 pixels, product selection on mobile, keyword/empty search, and Escape dismissal with focus restoration.
+
+`qa/motion-checks.json` records the colour, continuous-loop, pause/resume, offscreen and responsive checks. `qa/asset-optimization.json` records generated image dimensions and byte sizes. Reduced-motion rules and hidden-tab handling were inspected in source; those environment modes were not toggled during browser QA.
