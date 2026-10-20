@@ -34,7 +34,7 @@ export default function ScrollMotion() {
         if (top < window.innerHeight-24) return;
         const parent = element.parentElement;
         const stagger = parent?.matches(".solution-grid,.story-grid,.approach-steps,.company-stats")
-          ? Array.from(parent.children).indexOf(element)%3*65 : 0;
+          ? Array.from(parent.children).indexOf(element)%3*50 : 0;
         element.style.setProperty("--reveal-delay",`${stagger}ms`);
         element.dataset.reveal = "pending";
         observer?.observe(element);
