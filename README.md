@@ -85,3 +85,5 @@ The Acorn Travels story uses the official wordmark from https://www.acorntravels
 The page uses a 2px blue outer frame at every viewport width. A shared responsive gutter grows from 16px on phones to 40px on desktops, with a 1760px content cap for very wide screens. Image source sizes follow those gutters.
 
 Sections reveal once with a 14px rise and a 520ms fade; grouped cards stagger by at most 100ms. The infrastructure image settles gently as it enters view, and hero drift is restrained. Reduced-motion preferences keep content static. These effects use native CSS and IntersectionObserver without a per-frame JavaScript scroll handler.
+
+The FAQ orbit uses one shared SVG path for each stationary track and its moving particle. Native CSS motion paths keep particles on the ellipses, with 14/19/23-second loops, shaded spheres and restrained front/back depth. The existing visibility observer pauses motion offscreen and in hidden tabs. Reduced motion leaves particles at separate static points on their tracks. `qa/orbit-path-checks.json` records the browser alignment, pause/resume and responsive checks.

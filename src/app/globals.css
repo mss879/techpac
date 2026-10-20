@@ -200,13 +200,6 @@ cite{font-size:.9375rem;font-weight:600;font-style:normal;display:block;line-hei
 .faq-intro h2{color:#f5f5f0;font-size:43px;margin-top:18px;letter-spacing:-1.8px}
 .faq-intro>p{font-size:.9375rem;color:#99a79a;line-height:1.7;margin-top:16px}
 .faq-intro .text-link{color:#d5e6cf;margin-top:14px;font-size:.9375rem}
-.orbital-art{width:130px;height:96px;position:relative;margin-top:25px;margin-left:5px;isolation:isolate}
-.orbital-art>span:not(.orbit-core):not(.orbit-dot){position:absolute;border:1px solid #778e7f;border-radius:50%;width:125px;height:64px;top:14px;left:0}
-.orbit-one{transform:rotate(-25deg)}
-.orbit-two{transform:rotate(35deg)}
-.orbit-three{transform:rotate(90deg)}
-.orbit-core{position:absolute;top:26px;left:44px;color:#adc9a8}
-.orbit-dot{position:absolute;width:7px;height:7px;background:#88c58a;border-radius:50%;top:18px;left:104px;box-shadow:0 0 15px #b9e59a70}
 .faq-list{padding-top:12px}
 .faq-item{border-top:1px solid #405046;transition:background .25s}
 .faq-item:last-child{border-bottom:1px solid #405046}
@@ -811,17 +804,16 @@ body{font-size:1rem;font-weight:450}
 /* Crisp SVG decoration. JavaScript only toggles visibility, never animation frames. */
 .orbital-art{width:210px;height:192.5px;position:relative;margin:26px 0;color:#7d9f87;pointer-events:none}
 .orbital-art>svg{display:block;width:100%;height:100%;overflow:visible}
-.orbit-rotation,.orbit-satellite,.orbit-core-svg,.spark-rotation{transform-box:view-box;transform-origin:center}
-.orbit-rotation{animation:orbital-turn 42s linear infinite}
-.orbit-satellite{fill:#93d69a;animation:orbital-turn 18s linear infinite}
-.orbit-satellite-secondary{fill:#a5c7bd;animation-duration:26s;animation-direction:reverse}
-.orbit-core-svg{color:#c2dfb8;animation:orbit-breathe 6s ease-in-out infinite}
+.orbit-particle{offset-anchor:0px 0px;offset-rotate:0deg;animation:orbit-travel var(--orbit-duration) linear var(--orbit-delay) infinite}
+.orbit-particle-depth{transform-box:fill-box;transform-origin:center;animation:orbit-depth var(--orbit-duration) linear var(--orbit-delay) infinite}
+.orbit-core-svg{color:#c2dfb8}
 .hero-spark>svg{display:block;width:1em;height:1em}
-.spark-rotation{animation:orbital-turn 44s linear infinite}
+.spark-rotation{transform-box:view-box;transform-origin:center;animation:orbital-turn 44s linear infinite}
 [data-decorative-motion] .motion-layer{animation-play-state:paused}
 [data-decorative-motion][data-motion-active=true] .motion-layer{animation-play-state:running}
 @keyframes orbital-turn{to{transform:rotate(360deg)}}
-@keyframes orbit-breathe{0%,100%{transform:scale(1);opacity:.8}50%{transform:scale(1.12);opacity:1}}
+@keyframes orbit-travel{from{offset-distance:0%}to{offset-distance:100%}}
+@keyframes orbit-depth{0%,50%,100%{transform:scale(.85);opacity:.85}25%{transform:scale(1.1);opacity:1}75%{transform:scale(.62);opacity:.45}}
 .journey-line[data-reveal=pending] path{stroke-dasharray:1;stroke-dashoffset:1}
 .journey-line[data-reveal=visible] path{stroke-dasharray:1;animation:journey-draw 1.7s cubic-bezier(.25,.6,.25,1) both}
 @keyframes journey-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-20",
+  "productionBuild": "passed, including TypeScript",
+  "browser": "in-app Chromium, production static export",
+  "geometry": "All three track paths and CSS offset paths share the same ellipse geometry; each plane applies the same rotation to track and particle.",
+  "alignmentMeasurement": "Particle bounding-box centers converted from viewport coordinates into each ellipse's local coordinates; x²/104² + y²/54² should equal 1.",
+  "alignmentSamples": [
+    [0.9999998726281022, 0.9999989782578104, 1.0000003712817431],
+    [1.0000002132600527, 1.0000005856619547, 1.00000030525341]
+  ],
+  "maximumObservedEquationError": 0.0000011,
+  "offscreenPause": {
+    "motionActive": false,
+    "animationPlayState": ["paused", "paused", "paused"],
+    "offsetDistancesPercent": [61.6416, 85.3149, 52.6949],
+    "laterRead": "All three distances unchanged"
+  },
+  "viewportReentry": "All three particles resumed moving and remained on their tracks",
+  "responsive": [
+    {"cssViewportWidth": 320, "documentWidth": 320, "artWidth": 180},
+    {"cssViewportWidth": 390, "documentWidth": 390, "artWidth": 180},
+    {"cssViewportWidth": 768, "documentWidth": 768, "artWidth": 210},
+    {"cssViewportWidth": 1276, "documentWidth": 1276, "artWidth": 210}
+  ],
+  "faqInteraction": "ERP question expands and collapses correctly",
+  "runtimeWarningsOrErrors": [],
+  "reducedMotion": "Source-inspected: animations disabled; distinct base offset distances retained. OS preference not toggled during browser QA.",
+  "performance": "No added dependencies, per-frame JavaScript, blur filters or continuously rotating track groups"
+}
