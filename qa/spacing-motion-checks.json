@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-20",
+  "viewports": [
+    {
+      "brokenImages": 0,
+      "contentLeft": 18,
+      "contentWidth": 284,
+      "documentWidth": 320,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 320
+    },
+    {
+      "brokenImages": 0,
+      "contentLeft": 18,
+      "contentWidth": 354,
+      "documentWidth": 390,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 390
+    },
+    {
+      "brokenImages": 0,
+      "contentLeft": 21.2,
+      "contentWidth": 725.59,
+      "documentWidth": 768,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 768
+    },
+    {
+      "brokenImages": 0,
+      "contentLeft": 29.5,
+      "contentWidth": 1041,
+      "documentWidth": 1100,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 1100
+    },
+    {
+      "brokenImages": 0,
+      "contentLeft": 38,
+      "contentWidth": 1364,
+      "documentWidth": 1440,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 1440
+    },
+    {
+      "brokenImages": 0,
+      "contentLeft": 42,
+      "contentWidth": 1516,
+      "documentWidth": 1600,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 1600
+    },
+    {
+      "brokenImages": 0,
+      "contentLeft": 80,
+      "contentWidth": 1760,
+      "documentWidth": 1920,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "contentLeft": 400,
+      "contentWidth": 1760,
+      "documentWidth": 2560,
+      "frameLeft": 2,
+      "frameRight": 2,
+      "frameTop": 2,
+      "headerOverflow": [],
+      "width": 2560
+    }
+  ],
+  "revealStart": {
+    "bottomFrame": 1.66,
+    "duration": "0.52s, 0.52s, 0.25s, 0.25s",
+    "imageScale": "1.01404",
+    "pending": 37,
+    "stagger": [
+      "0ms",
+      "50ms",
+      "100ms",
+      "0ms",
+      "50ms",
+      "100ms"
+    ],
+    "translate": "0px 10.3148px"
+  },
+  "revealAfter": {
+    "firstCard": "visible",
+    "opacity": "1",
+    "translate": "0px",
+    "visible": 7
+  },
+  "configuredMotion": {
+    "risePixels": 14,
+    "fadeMilliseconds": 520,
+    "maximumStaggerMilliseconds": 100,
+    "imageInitialScale": 1.025,
+    "heroMaximumScale": 1.025
+  },
+  "mobileMenu": {
+    "products": 6,
+    "overflow": false
+  },
+  "productionBuild": "passed",
+  "reducedMotion": "source-inspected",
+  "verificationCheckout": "/private/tmp/techpac-spacing-check-20261020"
+}

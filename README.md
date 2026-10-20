@@ -79,3 +79,9 @@ The homepage was checked in a real browser at CSS widths 320, 390, 768, approxim
 `qa/readability-checks.json` records the larger typography and logo checks across phone, tablet and desktop widths. Adobe and TeamViewer display assets are cropped to their visible artwork before resizing; the original brand files are preserved.
 
 The Acorn Travels story uses the official wordmark from https://www.acorntravels.lk/nav_logo_new.png instead of the older circular badge. Client-story logos preserve their shape, display at a larger size and include a visible company name. Source provenance is recorded in `public/brand/asset-provenance.json`.
+
+## Page frame and scroll motion
+
+The page uses a 2px blue outer frame at every viewport width. A shared responsive gutter grows from 16px on phones to 40px on desktops, with a 1760px content cap for very wide screens. Image source sizes follow those gutters.
+
+Sections reveal once with a 14px rise and a 520ms fade; grouped cards stagger by at most 100ms. The infrastructure image settles gently as it enters view, and hero drift is restrained. Reduced-motion preferences keep content static. These effects use native CSS and IntersectionObserver without a per-frame JavaScript scroll handler.
